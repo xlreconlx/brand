@@ -1,21 +1,22 @@
-# brand
+# BRAND
 Prueba de desarrollo Between
 
 Realicé la aplicacion usando la Version 17 de Java con SpringBoot y JUnit para las pruebas, hay un archivo de csv con las datos de prueba y un archivo sql con los datos que se importan al inciar la aplicacion 
 Se esta usando una base de datos en Memoria H2.
 
-El Siguiente fue el ejercicio propuesto
+El Siguiente fue el ejercicio propuesto.
+
 En la base de datos de comercio electrónico de la compañía disponemos de la tabla PRICES que refleja el precio final (pvp) y la tarifa que aplica a un producto de una cadena entre unas fechas determinadas. A continuación se muestra un ejemplo de la tabla con los campos relevantes:
 
  
 
-PRICES
+# PRICES
 
 -------
 
  
 
-BRAND_ID         START_DATE                                    END_DATE                        PRICE_LIST                   PRODUCT_ID  PRIORITY                 PRICE           CURR
+# BRAND_ID         START_DATE                                    END_DATE                        PRICE_LIST                   PRODUCT_ID  PRIORITY                 PRICE           CURR
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -29,7 +30,7 @@ BRAND_ID         START_DATE                                    END_DATE         
 
  
 
-Campos: 
+# Campos: 
 
  
 
@@ -88,3 +89,7 @@ Se valorará:
 Diseño y construcción del servicio.
 Calidad de Código.
 Resultados correctos en los test.
+
+# Este fue el resultado de mis pruebas en mi localhost
+![image](https://github.com/xlreconlx/brand/assets/11436169/31f9acf4-84e4-4d0d-b6bc-014844248ed4)
+
